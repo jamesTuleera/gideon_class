@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        button {
+            background-color: red;
+            display: block;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+
+    <button onclick="showit()">show</button>
+    <button onclick="hideit()">hide</button>
+
+    <div class="something" id="board">
+        <h1>this is just dismostration of show and hide using javascript and css</h1>
+    </div>
+
+    <div class="ngkg" style="height: 800px; background-color : red; width: 100%;">
+
+    </div>
+
+
+
+
+
+
+
+
+    <script>
+        let board = document.getElementById("board");
+        function hideit() {
+            board.style.display = 'none';
+        }
+
+        function showit() {
+            board.style.display = 'block';
+        }
+
+    </script>
+</body>
+
+</html>

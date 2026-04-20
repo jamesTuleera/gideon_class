@@ -57,3 +57,18 @@
             margin: 30px;
             padding: 20px;
         }
+
+.something{
+    
+    background-color: green;
+    height: 100px;
+    width: 600px;
+    padding: 10px;
+
+    position: relative;
+}
+
+.something:hover{
+    border-radius: 40px;
+    background-color: black;
+}
