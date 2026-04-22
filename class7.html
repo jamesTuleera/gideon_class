@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .index1 {
+            height: 500px;
+            width: 500px;
+            background-color: red;
+            z-index: 1;
+
+
+        }
+
+        .index2 {
+            height: 700px;
+            width: 300px;
+            background-color: green;
+            top: 10px;
+            margin-top: 10px;
+            z-index: -1;
+            position: absolute;
+
+        }
+
+        .box {
+            width: 40%;
+            height: 300px;
+            background-color: lightgray;
+            display: flex;
+            justify-content: space-between;
+            align-items: end
+            
+            
+            
+            
+
+        }
+
+        .smallBox1 {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            /* margin-left: 0px; */
+
+
+        }
+
+        .smallBox2 {
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+            /* margin-left: 0px; */
+
+        }
+
+        .boxText{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-- <div class="index1"> <h1>Index 1</h1></div>
+    <div class="index2"><h1>Index 2</h1></div> -->
+
+
+
+    <h1>Flex</h1>
+
+    <div class="box">
+
+        <div class="smallBox1 boxText">Box 1</div>
+        <div class="smallBox2 boxText">Box 2</div>
+    </div>
+
+
+
+</body>
+
+</html>
