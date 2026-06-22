@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <title>Bootstrap</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- <h1 class="text-light bg-dark">Hello Light</h1>
+        <h1 class="text-dark bg-light">Hello dark</h1>
+        <h1 class="text-danger bg-success">Hello Danger</h1>
+        <h1 class="text-success bg-dark">Hello success</h1>
+        <h1 class="text-primary bg-success">Hello Primary</h1>
+        <h1 class="text-muted bg-success">Hello Muted</h1>
+        <h1 class="text-white bg-success">Hello white</h1>
+        <h1 class="text-secondary bg-light">Hello Secondary</h1> -->
+        <!-- <h1 class="text-light bg-success">Hello world</h1>
+    <h1 class="text-light bg-success">Hello world</h1>
+    <h1 class="text-light bg-success">Hello world</h1> -->
+    </div>
+
+
+
+
+
+
+
+
+    <!-- <div class="row">
+        <div class="col-12 bg-danger">
+            <h1>Col 12</h1>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-11 bg-danger">
+            <h1>Bootstrap</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-10 bg-danger">
+            <h1>Bootstrap</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-9 bg-danger">
+            <h1>Bootstrap</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-8 bg-danger">
+            <h1>Bootstrap</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-7 bg-danger">
+            <h1>Bootstrap</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6 bg-danger">
+            <h1>Bootstrap</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-5 bg-danger">
+            <h1>Bootstrap</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-4 bg-danger">
+            <h1>Bootstrap</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-3 bg-danger">
+            <h1>Bootstrap</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2 bg-danger">
+            <h1>Bootstrap</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1 bg-danger">
+            <h1>Bootstrap</h1>
+        </div>
+    </div> -->
+
+   <div class="row">
+        <div class="col-2 bg-danger">
+            <h1>Bootstrap</h1>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col-6 bg-primary">
+                This is column 6
+            </div>
+            <div class="col-6 bg-success">
+                This is column 6
+            </div>
+        </div>
+    </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-4 bg-danger"> hello div</div>
+            <div class="col-sm-12 col-md-6 col-lg-4 bg-success"> hello div</div>
+            <div class="col-sm-12 col-md-6 col-lg-4 bg-info"> hello div</div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script>
+        // ajax
+
+        let ajax = new XMLHttpRequest();
+        ajax.open('GET', 'https://jsonplaceholder.typicode.com/posts');
+        ajax.send();
+        ajax.onload = function () {
+            let data = JSON.parse(this.responseText);
+            console.log(data);
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>
