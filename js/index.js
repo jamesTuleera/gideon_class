@@ -35,7 +35,6 @@ function myName(name) {
 
 
 function addNumbers(a, b) {
-
     let c = a + b
     document.querySelector('.show').innerHTML = c
 }
@@ -56,3 +55,6 @@ function addNum() {
 document.getElementById('sum').addEventListener('click', function(){
     addNum()
 })
+
+
+
