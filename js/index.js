@@ -9,15 +9,22 @@ c = a % b
 // console.log(c)
 
 // Data Type // Variable 
-// String 
+// String  let 
+// let myName = 'akdflalj9800'
+
+
 // Integar
+
+// let numdfd = 89
 // decimal/float/double
+
+// let numdfd = 89.6245
 // Boolean (true or false)
+
+
 // Operators (assignment, Arithmetics, increment, decrement)
 
 // operator
-
-
 
 
 // Function
@@ -48,13 +55,28 @@ function addNum() {
     let result = parseInt(num1.value) + parseInt(num2.value)
 
     document.querySelector('.result').innerHTML = result
-
 }
 
 
-document.getElementById('sum').addEventListener('click', function(){
-    addNum()
-})
 
 
 
+
+
+//////////JS-5 CONDITIONAL STATEMENT//////////
+// if, else,  else if, tenary, DOM //////////
+
+
+let numa = 2
+
+// if(numa >= 8){
+//     console.log('The value is 2')
+// }else if(numa > 2){
+//     console.log('The value is greater than 2')
+// }else if(numa < 2){
+//     console.log('The value is less than 2')
+// }else{
+//     console.log('Please check the number again')
+// }
+
+numa == 20 ? console.log('tenary 2') : console.log('tenary not 2')
