@@ -63,6 +63,9 @@ function addNum() {
 
 
 
+
+
+
 //////////JS-5 CONDITIONAL STATEMENT//////////
 // if, else,  else if, tenary, DOM //////////
 
@@ -80,3 +83,88 @@ let numa = 2
 // }
 
 numa == 20 ? console.log('tenary 2') : console.log('tenary not 2')
+
+
+
+
+
+
+// Assignment
+
+
+function checkAge() {
+    const __ = (e) => document.querySelector(e)
+
+    const name = __('.fullName').value
+    const gender = __('.gender').value
+    const age = __('.age').value
+
+    __('.sname').innerHTML = name
+    __('.sgender').innerHTML = gender
+
+    let sgender = __('.sage')
+
+    if (age < 18) {
+        sgender.innerHTML = ' MINOR'
+        sgender.style.color = 'red'
+    } else {
+        sgender.innerHTML = ' ADULT'
+        sgender.style.color = 'green'
+        sgender.fontSize = '20px'
+    }
+
+}
+
+
+
+///// JS-6 SWITCH STATEMENT ///////
+
+// let age = 12
+
+// let day = new Date().getDay()
+
+// console.log(new Date())
+
+// switch (day) {
+//     case 1: console.log('Monday')
+
+//         break;
+//     case 2: console.log('Tuesday')
+//         break;
+//     case 3: console.log('Wednesday')
+//         break;
+//     case 4: console.log('Thursday')
+//         break;
+//     case 5: console.log('Friday')
+//         break;
+//     case 6: console.log('Saturday')
+//         break;
+//     case 7: console.log('Sunday')
+//         break;
+//     default:
+//         console.log('Invalid day')
+//         break;
+// }
+
+// switch (age) {
+//     case 18:
+//         console.log('You are 18 years old')
+//         break;
+//     case 25:
+//         console.log('You are 25 years old')
+//         break;
+//     default:
+//         console.log('You are not 18 or 25 years old')
+//         break;
+// }
+
+
+let ab = 'red'
+let bb = 'blue'
+
+if(ab == 'red' || bb == 'pink'){
+    console.log('true')
+}else{
+    console.log('false')
+}
+
